@@ -1,0 +1,6 @@
+function [inputCell] = optContrast2Input(opt, k)
+    inputCell =  {'ContrastAlphaLow', opt.ContrastAlphaLow{k}, 'ContrastAlphaHigh', opt.ContrastAlphaHigh{k}, ...
+        'ContrastFactorLow', opt.ContrastFactorLow(k), 'ContrastFactorHigh', opt.ContrastFactorHigh(k),...
+        'ContrastFactorMethod', opt.ContrastFactorMethod};
+end
+
