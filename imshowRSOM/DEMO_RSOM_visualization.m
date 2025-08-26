@@ -2,7 +2,7 @@
 % Author: Manuel Gehmeyr
 % Email: manuel.gehmeyr@helmholtz-munich.de
 %% Load RSOM reconstruction (LF/HF)
-[filename,folder_path ] = uigetfile('Z:\RSOM_Data\RSOM_backup_Suhanyaa\DiabetesRecon\HF_LF','Select RSOM reconstruction.');
+[filename,folder_path ] = uigetfile('','Select RSOM reconstruction.');
 filenameLF = replace(filename, 'HF', 'LF');
 filenameHF = replace(filename, 'LF', 'HF');
 HF = load([folder_path, filenameHF]);
