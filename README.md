@@ -218,7 +218,8 @@ This toolbox accompanies the manuscript:
 \* Equal contribution  
 ‡ Corresponding author: bioimaging.translatum@tum.de  
 
-📄 The paper is currently **in preparation / under review**. Citation details will be added once published.
+📄 Published in npj Imaging (2025) 3, 49
+https://doi.org/10.1038/s44303-025-00112-z
 
 ---
 
